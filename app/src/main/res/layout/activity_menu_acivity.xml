@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuAcivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect With People"
+        android:textAllCaps="true"
+        android:padding="22dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:background="#00BCD4"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:padding="10dp"
+        android:src="@drawable/intro_menu_transparent" />
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ice Breaker is the new way to connect with people. The app is reserved to especific location where you and other people can connect. Only people inside the location radio will be shown to you, so if you match with someone... Well, now is time to start a conversation and who know what can happen!
+"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/image_button_accept"
+            android:layout_width="106dp"
+            android:layout_height="51dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_check_black_48dp" />
+
+        <ImageButton
+            android:id="@+id/image_button_decline"
+            android:layout_width="106dp"
+            android:layout_height="51dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_close_black_48dp" />
+
+    </LinearLayout>
+</LinearLayout>

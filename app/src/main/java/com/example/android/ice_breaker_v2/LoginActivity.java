@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         forgot_pwd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, ListActivity.class);
+                Intent intent = new Intent(LoginActivity.this, MenuAcivity.class);
                 startActivity(intent);
             }
         });
