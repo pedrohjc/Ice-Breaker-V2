@@ -19,6 +19,7 @@
         <!--<color name="divider">#BDBDBD</color>-->
     </style>
 
+
     <style name="CategoryStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">88dp</item>

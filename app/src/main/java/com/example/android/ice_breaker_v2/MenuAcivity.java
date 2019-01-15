@@ -22,13 +22,5 @@ public class MenuAcivity extends AppCompatActivity {
             }
         });
 
-        ImageButton decline = (ImageButton) findViewById(R.id.image_button_decline);
-        decline.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MenuAcivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }

@@ -4,18 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/tanbg"
     android:orientation="vertical"
     tools:context=".ListActivity">
 
     <TextView
+        android:id="@+id/start_looking"
         style="@style/CategoryStyle"
         android:background="@color/firstbg"
         android:text="Start Looking" />
     <TextView
+        android:id="@+id/my_matches"
         style="@style/CategoryStyle"
         android:background="@color/secondbg"
         android:text="My Matches" />
     <TextView
+        android:id="@+id/settings"
         style="@style/CategoryStyle"
         android:background="@color/thirdbg"
         android:text="Settings" />
@@ -27,6 +31,7 @@
         android:gravity="bottom">
 
         <Button
+            android:id="@+id/logout_btn"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:text="Logout" />

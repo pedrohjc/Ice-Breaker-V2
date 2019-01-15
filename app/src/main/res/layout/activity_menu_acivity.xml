@@ -44,12 +44,5 @@
             android:scaleType="fitCenter"
             android:src="@drawable/ic_check_black_48dp" />
 
-        <ImageButton
-            android:id="@+id/image_button_decline"
-            android:layout_width="106dp"
-            android:layout_height="51dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_close_black_48dp" />
-
     </LinearLayout>
 </LinearLayout>

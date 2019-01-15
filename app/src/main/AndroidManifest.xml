@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity
+            android:name=".LoginActivity"
+            android:label="Welcome to IceBreaker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListActivity" android:label="My Profile"/>
-        <activity android:name=".MenuAcivity" android:label="Menu List"></activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="My Profile" />
+        <activity
+            android:name=".MenuAcivity"
+            android:label="Important Message" />
+        <activity android:name=".UsersList" android:label="Start Looking"></activity>
     </application>
 
 </manifest>
