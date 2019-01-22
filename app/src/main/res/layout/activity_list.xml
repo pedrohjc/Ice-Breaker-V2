@@ -19,6 +19,11 @@
         android:background="@color/secondbg"
         android:text="My Matches" />
     <TextView
+        android:id="@+id/profile"
+        style="@style/CategoryStyle"
+        android:background="@color/fourthbg"
+        android:text="Profile" />
+    <TextView
         android:id="@+id/settings"
         style="@style/CategoryStyle"
         android:background="@color/thirdbg"

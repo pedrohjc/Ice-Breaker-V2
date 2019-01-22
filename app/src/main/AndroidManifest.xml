@@ -24,7 +24,9 @@
         <activity
             android:name=".MenuAcivity"
             android:label="Important Message" />
-        <activity android:name=".UsersList" android:label="Start Looking"></activity>
+        <activity android:name=".UsersList"
+            android:label="Start Looking">
+        </activity>
     </application>
 
 </manifest>

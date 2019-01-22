@@ -7,5 +7,6 @@
     <color name="firstbg">#e2ca00</color>
     <color name="secondbg">#20bf00</color>
     <color name="thirdbg">#001ec9</color>
+    <color name="fourthbg">#ff0d00</color>
     <color name="tanbg">#FFF7DA</color>
 </resources>
