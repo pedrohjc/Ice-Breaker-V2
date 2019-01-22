@@ -54,7 +54,7 @@ public class UsersList extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "CANCEL button Pressed", Toast.LENGTH_LONG).show();
                     }
                 });
-                Toast.makeText(getApplicationContext(), "Worked bitches!", Toast.LENGTH_LONG).show();
+
                 builder.show();
             }
         });
